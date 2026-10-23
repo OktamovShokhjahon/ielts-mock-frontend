@@ -1,4 +1,4 @@
-const API = process.env.NEXT_PUBLIC_API_URL || "https://ielts-mock-backend-nczh.onrender.com/";
+const API = process.env.NEXT_PUBLIC_API_URL || "https://ielts-mock-backend-nczh.onrender.com";
 
 export function getApiUrl(): string {
   return API;
